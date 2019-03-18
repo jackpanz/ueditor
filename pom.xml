@@ -2,19 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>bj-java</groupId>
-    <artifactId>uediter-spring-aliyun-root</artifactId>
+    <artifactId>ueditor-root</artifactId>
     <packaging>pom</packaging>
     <version>1.1-SNAPSHOT</version>
-    <name>uediter-spring-aliyun-root</name>
+    <name>ueditor-root</name>
 
     <modules>
-        <module>uediter</module>
+        <module>ueditor</module>
         <module>spring-boot</module>
         <module>spring-mvc</module>
     </modules>
 
     <build>
-        <finalName>uediter-springmvc-aliyun</finalName>
+        <finalName>ueditor-springmvc-aliyun</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
