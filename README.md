@@ -7,11 +7,17 @@
 
 Gradle:
 ```gradle
-wait
+dependencies {
+  implementation 'com.github.jackpanz:ueditor:1.0.0'
+}
 ```
 Maven:
 ```xml
-wait
+<dependency>
+    <groupId>com.github.jackpanz</groupId>
+    <artifactId>ueditor</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 # Usage
 Configure your Controller url 
